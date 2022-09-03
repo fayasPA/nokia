@@ -6,8 +6,14 @@
     font-size: 0.8rem;
     margin-left: 1.1rem;
 }
+#navBtn{
+  border: none;
+}
 .navbar ul{
     margin-right: 5rem;
+}
+.dropdown-menu button:hover{
+  transform: scale(1.1);
 }
 .carousel-inner video{
     height:75vh;
@@ -39,12 +45,14 @@
 .img:hover{
     background-color: #ffff;
 }
-.btn{
+.foot-btn{
     background-color: #001135; 
+    border-radius: 1rem;
     color: #ffff;
     width: 10rem;
+    cursor: pointer;
 }
-.btn:hover{
+.foot-btn:hover{
     background-color: aliceblue;
     color: aqua;
 }
